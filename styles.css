@@ -206,27 +206,19 @@ footer {
   }
   img {
     width: 75%;
-    width: 75%;
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    
-    /*max-height: auto;
+    max-height: auto;
     display: block;
     margin-left: auto;
-    margin-right: auto; */
+    margin-right: auto; 
    
   }
   #sample-d > img{
   width: 75%;
-    display: grid;
-    align-items: center;
-    justify-items: center;
-  /*display: block;
+  display: block;
   margin-left: auto;
     margin-right: auto;
   object-fit: contain;
-  max-height: auto;*/
+  max-height: auto;
 }
   .navlist a {
     display: block;
