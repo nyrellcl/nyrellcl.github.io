@@ -208,6 +208,9 @@ footer {
     object-fit: contain;
  width: 75%;
   max-height: 75%;
+    display: flex;
+    justify-content: center;
+    aligh-content: center
     /*width: 75%;
     max-height: auto;
     display: block;
@@ -219,12 +222,14 @@ footer {
     object-fit: contain;
  width: 75%;
   max-height: 75%;
+     justify-content: center;
+    aligh-content: center
   /*width: 75%;
   display: block;
   margin-left: auto;
     margin-right: auto;
   object-fit: contain;
-  max-height: auto;
+  max-height: auto;*/
 }
   .navlist a {
     display: block;
