@@ -217,7 +217,7 @@ footer {
   display: block;
   margin-left: auto;
     margin-right: auto;
-  object-fit: contain;
+  /*object-fit: contain;*/
   max-height: auto;
 }
   .navlist a {
