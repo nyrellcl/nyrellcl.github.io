@@ -215,6 +215,8 @@ footer {
   #sample-d > img{
   width: 75%;
   display: block;
+  margin-left: auto;
+    margin-right: auto;
   object-fit: contain;
   max-height: auto;
 }
