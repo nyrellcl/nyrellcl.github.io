@@ -205,7 +205,7 @@ footer {
       "footer";
   }
   img {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     display: block;
     /*object-fit: contain;
@@ -222,7 +222,7 @@ footer {
    
   }
   #sample-d > img{
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     display: block;
     /*object-fit: contain;
