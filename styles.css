@@ -205,15 +205,21 @@ footer {
       "footer";
   }
   img {
-    width: 75%;
+    object-fit: contain;
+ width: 75%;
+  max-height: 75%;
+    /*width: 75%;
     max-height: auto;
     display: block;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;*/
    
   }
   #sample-d > img{
-  width: 75%;
+    object-fit: contain;
+ width: 75%;
+  max-height: 75%;
+  /*width: 75%;
   display: block;
   margin-left: auto;
     margin-right: auto;
