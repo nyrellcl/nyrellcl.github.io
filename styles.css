@@ -208,8 +208,7 @@ footer {
     width: 85%;
     margin: 0 auto;
      display: flex;
-    align-items: center;
-    justify-items: center
+    justify-content: center;
     /*object-fit: contain;
  width: 75%;
   max-height: 75%;
@@ -227,8 +226,7 @@ footer {
     width: 85%;
     margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-items: center
+    justify-content: center;
     /*object-fit: contain;
  width: 75%;
   max-height: 75%;
