@@ -209,15 +209,15 @@ footer {
   img {
     width: 100%;
     margin: 0 auto;
-     display: flex;
-    justify-content: center;
+     display: block;
+   
    
   }
   #sample-d > img{
     width: 100%;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
+    display: block;
+    
    
 }
   .navlist a {
