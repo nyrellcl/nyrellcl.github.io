@@ -208,14 +208,14 @@ footer {
   }
   img {
     width: 100%;
-    margin: 0 auto 0 50px;
+    margin: 0 auto 0 40px;
      display: flex;
     justify-content: center;
    
   }
   #sample-d > img{
     width: 100%;
-    margin: 0 auto 0 50px;
+    margin: 0 auto 0 40px;
     display: flex;
     justify-content: center;
    
