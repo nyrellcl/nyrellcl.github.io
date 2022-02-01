@@ -207,16 +207,16 @@ footer {
       "footer";
   }
   img {
-    width: 95%;
-    /*margin: 0 auto;
-     display: block;*/
+    width: 100%;
+    margin: 0 auto;
+     /*display: block;*/
    
    
   }
   #sample-d > img{
-    width: 95%;
-    /*margin: 0 auto;
-    display: block;*/
+    width: 100%;
+    margin: 0 auto;
+    /*display: block;*/
     
    
 }
