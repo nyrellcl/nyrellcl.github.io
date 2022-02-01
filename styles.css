@@ -22,7 +22,9 @@ body {
     "sample-a about about"
     "sample-b sample-c sample-d"
     "contact contact contact"
-    "footer footer footer"
+    "footer footer footer";
+  align-items: center;
+    
    
 }
 header {
