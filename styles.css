@@ -207,7 +207,9 @@ footer {
   img {
     width: 85%;
     margin: 0 auto;
-    display: block;
+     display: grid;
+    align-items: center;
+    justify-items: center
     /*object-fit: contain;
  width: 75%;
   max-height: 75%;
@@ -224,7 +226,9 @@ footer {
   #sample-d > img{
     width: 85%;
     margin: 0 auto;
-    display: block;
+    display: grid;
+    align-items: center;
+    justify-items: center
     /*object-fit: contain;
  width: 75%;
   max-height: 75%;
