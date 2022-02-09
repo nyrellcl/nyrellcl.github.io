@@ -75,7 +75,8 @@ ul li {
   margin-right: 20px;
   
 }
-
+/*removed nav list because it wasn't necessary. 
+still wanted to save the code in case*/
 /*.navlist a {
   display: block;
   padding: 2rem;
@@ -88,6 +89,7 @@ ul li {
   border-color: black;
   cursor: pointer;
 }*/
+/*---------*/
 
 ul a {
   text-decoration: none;
@@ -200,9 +202,10 @@ footer {
   img {
     width: 100%;
     margin: 0 auto;
-     /*display: block;*/
    
-   
+  }
+  h1 header{
+    font-size: 34px;
   }
  
   .navlist a {
