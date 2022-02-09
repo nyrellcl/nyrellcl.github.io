@@ -186,8 +186,6 @@ footer {
     grid-template-rows: repeat(10, 1fr);
     grid-template-areas:
       "header"
-      "nav"
-      "portfolio"
       "sample-a"
       "sample-b"
       "sample-c"
