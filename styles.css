@@ -2,6 +2,8 @@
 * {
   font-family: "Baloo 2", cursive;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 html {
   scroll-behavior: smooth;
@@ -192,6 +194,9 @@ footer {
       "contact"
       "footer";
   }
+  body{
+    margin: 25px;
+  }
   img {
     width: 100%;
     margin: 0 auto;
@@ -199,13 +204,7 @@ footer {
    
    
   }
-  #sample-d > img{
-    width: 100%;
-    margin: 0 auto;
-    /*display: block;*/
-    
-   
-}
+ 
   .navlist a {
     display: block;
     padding: 2rem;
