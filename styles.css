@@ -5,9 +5,11 @@
   margin: 0;
   padding: 0;
 }
+/*For nav bar code
 html {
   scroll-behavior: smooth;
-}
+}*/
+
 body {
   background: #f2f3d3;
 }
@@ -61,6 +63,7 @@ img{
   width: 100%;
   height: 100%;
 }
+
 /*nav {
   display: flex;
   width: 100%;
@@ -68,14 +71,17 @@ img{
   align-items: center;
   grid-area: nav;
 }*/
+
 ul {
   display: flex;
   align-items: center;
 }
+
 ul li {
   margin-right: 20px;
   
 }
+
 /*removed nav list because it wasn't necessary. 
 still wanted to save the code in case*/
 /*.navlist a {
@@ -99,7 +105,7 @@ ul a {
 li {
   list-style: none;
 }
-
+/*images will take up entire size of grid section*/
 #sample-a,
 #sample-b,
 #sample-c,
@@ -184,6 +190,7 @@ footer {
 .footer-text {
   font-size: 1.1rem;
 }
+/*mobile screen users*/
 @media only screen and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
