@@ -16,7 +16,6 @@ body {
 .grid {
   display: grid;
   justify-content: center;
-  align-items: center;
   height: 100vh;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
@@ -178,7 +177,7 @@ li {
 }
 .text {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   font-size: 22px;
   font-weight: 700;
   
