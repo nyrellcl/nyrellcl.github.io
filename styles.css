@@ -251,6 +251,11 @@ footer {
     object-fit: cover;
   }
   
+  .link-logos {
+    display: flex;
+    flex-direction: column;
+  }
+  
 }
 /*removes the two borders on the about and contact nav bar when
 finger hovers on the button for too long*/
