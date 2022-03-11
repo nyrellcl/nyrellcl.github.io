@@ -186,7 +186,8 @@ body{
   }
   
   .photo-size{
-    width: 100%;
+    width: 360px;
+    height: 360px;
   }
   
   #photo-1{
