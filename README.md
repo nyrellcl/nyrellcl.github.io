@@ -2,6 +2,8 @@
 I've completely re-done the layout and design. The last version was not very well organized and needed a lot of improvements.
 This design and layout is much more clean and the code as well. I am currently developing the mobile version of the site.
 
+# end update 3/10/22
+
 
 
 
