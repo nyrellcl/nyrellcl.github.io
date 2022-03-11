@@ -17,7 +17,7 @@ body{
 }
 
 .main-container{
-  padding: 2.5rem 4rem;
+  padding: 3rem;
 }
 
 .header-container{
@@ -169,6 +169,10 @@ body{
   
   .decorative-line{
     background-image: linear-gradient(transparent, transparent);
+  }
+  
+  .about-title{
+    text-align: center;
   }
   
   .photo-grid{
