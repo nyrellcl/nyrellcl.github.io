@@ -84,7 +84,7 @@ body{
 .about-description{
   font-family: 'Baloo 2', cursive;
   line-height: 2rem;
-  font-size: 1.25rem;
+  font-size: 1.4rem;
 }
 
 /*Photo Grid*/
@@ -175,6 +175,10 @@ body{
   }
   
   .about-title{
+    text-align: center;
+  }
+  
+  .about-description{
     text-align: center;
   }
   
