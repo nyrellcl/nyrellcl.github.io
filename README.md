@@ -1,3 +1,11 @@
+# Update 3/10/22
+I've completely re-done the layout and design. The last version was not very well organized and needed a lot of improvements.
+This design and layout is much more clean and the code as well. I am currently developing the mobile version of the site.
+
+
+
+
+
 This project serves as practice for my current knowledge of HTML and CSS.
 I had asked a friend of mine to borrow their pictures and create a one-page
 photo portfolio using only HTML, CSS, CSS grid, and media queries.
