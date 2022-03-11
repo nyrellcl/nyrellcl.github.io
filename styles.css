@@ -1,274 +1,185 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
-* {
-  text-align: center;
+
+
+:root{
+  --cyan-bluish-gray: #abb8c3;
+}
+*{
   margin: 0;
   padding: 0;
 }
-/*For nav bar code
-html {
+
+html{
   scroll-behavior: smooth;
-}*/
+}
 
-body {
-  background: #f2f3d3;
+body{
+  background-color: #ffe9ad;
+  background-image: linear-gradient(305deg, #ffe9ad, #e9e6dd);
 }
-.grid {
-  display: grid;
+
+.main-container{
+  padding: 2.5rem 4rem;
+}
+
+.header-container{
+  display: flex; 
   justify-content: center;
-  height: 100vh;
-  grid-template-columns: repeat(3, auto);
-  grid-gap: 15px;
-  grid-template-rows: repeat(5, auto); /*3fr 1.5fr 2fr 2fr 3.9fr;*/
-  grid-template-areas:
-    "header header header  "
-    "sample-a about about"
-    "sample-b sample-c sample-d"
-    "contact contact contact"
-    "footer footer footer";
   align-items: center;
-    
-   
-}
-header {
-  grid-area: header;
-  display: flex;
-  justify-content: center;
-  background: #f2f3d3;
+  flex-direction: column;
   width: 100%;
-  top: 0;
-  left: 0;
-  margin: 25px auto;
+  padding-bottom: 4.85rem;
+  height: 30vh;
+}
+
+.decorative-line {
+  background-image: linear-gradient(to right, black, transparent, transparent, black 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 4px;
+  background-position: 0 175px;
+}
+
+.earth-photo{
+  width: 145px;
+  height: 145px;
+  margin: 0 auto;
+}
+
+
+
+.header-title{
   font-family: 'Fraunces', serif;
-  padding: 1.5rem 0;
-}
-h1 {
-  font-size: 2.8rem;
-}
-h2 {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  font-size: 2.5rem;
-  border-bottom: 0.2rem solid;
-  margin-bottom: 30px;
-  
-}
-h3 {
-  display: flex;
-  justify-content: center;
-  font-size: 1.8rem;
-  margin: 0 auto 4rem auto;
-  border-bottom: 0.2rem solid;
-  font-size: 2.3rem;
-}
-img{
-  width: 100%;
-  height: 100%;
-}
-
-/*nav {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  grid-area: nav;
-}*/
-
-ul {
-  display: flex;
-  align-items: center;
-}
-
-ul li {
- margin: 0 1rem;
-  
-}
-
-/*removed nav list because it wasn't necessary. 
-still wanted to save the code in case*/
-/*.navlist a {
-  display: block;
-  padding: 2rem;
-  font-size: 2.2rem;
-  transition: 350ms;
-  border-bottom: 1px solid transparent;
-  border-top: 1px solid transparent;
-}
-.navlist a:hover {
-  border-color: black;
-  cursor: pointer;
-}*/
-/*---------*/
-
-ul a {
-  text-decoration: none;
   color: black;
-}
-li {
-  list-style: none;
-}
-/*images will take up entire size of grid section*/
-#sample-a,
-#sample-b,
-#sample-c,
-#sample-d{
-  display: grid;
-  width: 100%;
-  height: 100%;
-}
-  
-#sample-a {
-  grid-area: sample-a;
+  font-size: 3.55rem;
+  margin-bottom: 4rem;
 }
 
-#sample-b {
-  grid-area: sample-b;
-}
+/*About*/
 
-#sample-c {
-  grid-area: sample-c;
-}
-
-#sample-d {
-  grid-area: sample-d;
-}
-
-#about {
-  grid-area: about;
-  display: grid;
-  align-content: stretch;
-  width: 100%;
-  height: 100%;
-  font-family: 'Fraunces', serif;
-  margin: 2rem 0;
-  
-}
-#about > p{
-  /*margin: 50px 0;*/
-  border-bottom: 3px solid;
-}
-
-#contact {
-  font-family: 'Fraunces', serif;
-  width: 100%;
-  margin: 25px auto;
-  grid-area: contact;
-}
-.contact-title {
-  margin: 1rem 0;
-  padding: 1rem 0;
-}
-
-#contact h4 {
-  font-size: 2rem;
-  margin: 0 auto 4rem auto;
-  border-bottom: 0.2rem solid;
-}
-
-.media {
+.section-container{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
-  margin: 25px auto;
-  font-family: "Baloo 2", cursive;
+  background-color: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 2px rgb(0 0 0 / 2%), 0 8px 6px rgb(0 0 0 / 3%), 0 16px 10px rgb(0 0 0 / 4%), 0 26px 18px rgb(0 0 0 / 5%);
+  width: 75%;
+  margin: 0 auto;
 }
-.media img{
-    margin: 5px auto 0 auto;
-    padding: 20px;
-    width: 50px;
-    display: block;
-    max-height: 50%;
 
 
 }
 
-.media img:hover{
-    transform: translateY(-5px);
+.article-container{
+  text-align: center;
+  width: 80%;
 }
-.text {
+
+.about-title{
+  font-family: 'Fraunces', serif;
+  font-size: 1.875rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.about-description{
+  font-family: 'Baloo 2', cursive;
+  line-height: 2rem;
+  font-size: 1.25rem;
+}
+
+/*Photo Grid*/
+
+.photo-grid{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  margin: 5rem 0;
+  grid-gap: 2rem;
+  width: 100%;
+}
+
+.photo-size{
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  max-height: 100%;
+}
+
+#photo-1{
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+#photo-2{
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+#photo-3{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+#photo-4{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+/*Footer*/
+
+.footer-container{
+  width: 100%;
   display: flex;
-  align-items: flex-start;
-  font-size: 22px;
-  font-weight: 700;
-  font-family: "Baloo 2", cursive;
-  
+  justify-content: center;
+  align-items: center;
+  background-color: #1E1E1A;
+  height: 10vh;
 }
 
-footer {
-  background: #1E1E1A;
-  grid-area: footer;
-  color: white;
+.footer-text{
+  text-align: center;
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  color: #ffe9ad;
 }
-.footer-text {
-  font-size: 1.1rem;
-  font-family: "Baloo 2", cursive;
-}
-/*mobile screen users*/
-@media only screen and (max-width: 500px) {
-  .grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(10, auto);
-    grid-template-areas:
-      "header"
-      "sample-a"
-      "sample-b"
-      "sample-c"
-      "sample-d"
-      "about"
-      "contact"
-      "footer";
-  }
-  body{
-    margin: 25px;
-  }
-  img {
-    width: 100%;
-    margin: 0 auto;
-   
-  }
-  h1 header{
-    font-size: 34px;
-  }
-  
-  ul li {
- margin: 0;
-  
-}
- 
-  .navlist a {
-    display: block;
-    padding: 2rem;
-    font-size: 1.4rem;
-    width: 40%;
-    text-decoration: underline;
-  }
-  #about p {
-    width: 312px;
-    display: inline-block ;
-    padding: 1rem 0;
-    margin: 0 auto;
 
-  }
-  h2,
-  h3,
-  li {
-    font-size: 1.4rem;
-  }
-  .text {
-    object-fit: cover;
+/*Mobile*/
+
+@media only screen and (max-width: 500px){
+  
+  .header-title{
+    text-align: center;
   }
   
-  .link-logos {
-    display: flex;
-    flex-direction: column;
+  .photo-grid{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
   }
   
+  #photo-1{
+  grid-column-start: 1;
+  grid-row-start: 1;
 }
-/*removes the two borders on the about and contact nav bar when
-finger hovers on the button for too long*/
-@media only screen and (max-width: 500px) and (hover: none){
-  a:hover{color: inherit;
+
+#photo-2{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+#photo-3{
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+#photo-4{
+  grid-column-start: 1;
+  grid-row-start: 4;
 }
 }
+
+  
