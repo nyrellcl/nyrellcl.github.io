@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
 
-
-:root{
-  --cyan-bluish-gray: #abb8c3;
-}
 *{
   margin: 0;
   padding: 0;
@@ -150,10 +146,28 @@ body{
 
 /*Mobile*/
 
-@media only screen and (max-width: 500px){
+@media screen and (max-width: 500px){
+  .main-container{
+    padding: 0;
+  }
+  
+  .header-container{
+    margin-top: 4rem;
+  }
   
   .header-title{
     text-align: center;
+    margin-top: 4rem;
+    padding: 2rem;
+  }
+  
+  .section-container{
+    margin: 7rem auto;
+    padding: 2rem;
+  }
+  
+  .decorative-line{
+    background-image: linear-gradient(transparent, transparent);
   }
   
   .photo-grid{
@@ -161,12 +175,16 @@ body{
     grid-template-rows: repeat(4, auto);
   }
   
+  .photo-size{
+    width: 100%;
+  }
+  
   #photo-1{
   grid-column-start: 1;
   grid-row-start: 1;
 }
 
-#photo-2{
+ #photo-2{
   grid-column-start: 1;
   grid-row-start: 2;
 }
@@ -180,6 +198,12 @@ body{
   grid-column-start: 1;
   grid-row-start: 4;
 }
+  
+  .footer-container{
+    padding: 2rem 0;
+  }
 }
+
+  
 
   
