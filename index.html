@@ -1,59 +1,54 @@
 <!DOCTYPE html>
-<head>
-    <link href="styles.css" type="text/css" rel="stylesheet">
-    <!--Displays screen properly according to user's device-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Tells browser to use utf-8 character encoding when translating code into readable text-->
-    <meta charset="utf-8">
-</head>
-<div class="grid">
-    <header>
-        <h1>Capturing The World</h1>
-    </header>
-    <!--Nav bar was unnecessary, but I wanted to keep the code
-    just in case-->
-    <!--<nav class="nav-bar">
-        <ul class="navlist">
-            <!--<li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-
-    </nav>-->
-   <!--Images Section-->
-    <div id="sample-a">
-        <img src="IMG_3566.jpeg" alt="Local Restaurant: Basil Kitchen" />
-    </div>
-    <div id="sample-b">
-        <img src="IMG_1808.jpeg" alt="Picture of the Seattle Pier at Night" />
-    </div>
-    <div id="sample-c">
-        <img src="DSCF0028.jpeg" alt="Picture of girl looking up at a lamplight" />
-    </div>
-    <div id="sample-d">
-        <img src="DSCF0111.jpeg" alt="Ledge at the corner of building" />
-    </div>
-    <div id="about">
-        <h2>About Me</h2>
-        <p class="text"> For me, a photo is more than capturing a subject. It's capturing a moment in time. 
-            Moments can never be replicated, they only come and go.
-            That's why I find so much joy and passion in taking photos. 
-            The unique captured moments in time, to me, is the beauty of photography. - Maron Bernardino
-        </p>
-    </div>
-    <div id="contact">
-        <h3>Lets Connect!</h3>
-        <div class="media">
-            <ul class="link-logos">
-                <li><a target="_blank" href="https://twitter.com/Nyrellio"><img src="twitter.png" alt="twitter logo"/>Twitter</a></li>
-                <li><a target="_blank" href="https://instagram.com/ezm.street.jpg?utm_medium=copy_link"><img src="insta.png" alt="IG logo"/>Instagram</a></li>
-                <li><a target="_blank" href="https://www.linkedin.com/in/nyrell-leonor-39180a1a4/"><img src="linked.png" alt="linkedin logo"/>LinkedIn
-                            </a></li>
-            </ul>
-        </div>
-        <!--Credit the Photographer-->
-        <footer>
-            <p class="footer-text">All Photos Captured By: Maron Bernardino</p>
-        </footer>
-    </div>
-</div>
+<html lang="en">
+    <head>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <main class="main-container">
+            <header class="header-container decorative-line">
+                <h1 class="header-title">Capturing The World</h1>
+                <div id="earth-stars">
+                    <img class="earth-photo" src="./images/earth-stars.png" alt="Earth and stars" loading="lazy"/>
+                </div>
+            </header>
+            
+            <!--About-->
+            <section class="section-container">
+                <article class="article-container">
+                    <h2 class="about-title">For me...</h2>
+                    <p class="about-description">...a photo is more than capturing a subject. It's capturing a moment
+              in time. Moments can never be replicated, they only come and go. That's why I find so much joy and passion in 
+              taking photos. The uniquely captured moments in time, to me, is the beauty of photography. - Maron Bernardino</p>
+                </article>
+            </section>
+            
+            <!--Photos-->
+            <div class="photo-grid">
+                <div id="photo-1">
+                    <img class="photo-size" src="./images/IMG_3566.jpeg" alt="Basil Kitchen" loading="lazy"/>
+                </div>
+                
+                <div id="photo-2">
+                    <img class="photo-size" src="./images/IMG_1808.jpeg" alt="Seattle Pier" loading="lazy"/>
+                </div>
+                
+                <div id="photo-3">
+                    <img class="photo-size" src="./images/DSCF0028.jpeg" alt="Girl and lampost" loading="lazy"/>
+                </div>
+                
+                <div id="photo-4">
+                    <img class="photo-size" src="./images/DSCF0111.jpeg" alt="Edge of a building" loading="lazy"/>
+                </div>
+            </div>
+            
+            <footer class="footer-container">
+                <p class="footer-text">All photos captured by: Maron Bernardino</p>
+            </footer>
+        </main>
+                
+                              
+    </body>
+  
