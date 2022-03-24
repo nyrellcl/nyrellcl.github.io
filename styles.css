@@ -91,7 +91,7 @@ body{
 
 .photo-grid{
   display: grid;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
